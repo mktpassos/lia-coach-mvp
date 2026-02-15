@@ -1,11 +1,15 @@
 # Arquitetura LIA Coach (MVP)
 
-Fluxo:
-Usuário → Formulário → n8n → Gemini API → Supabase → Resposta
+Fluxo de Dados: Usuário → Formulário → n8n → Gemini API → Supabase → Resposta.
 
-Stack:
-- IA: Gemini API
-- Orquestração: n8n
-- Banco: Supabase (PostgreSQL)
-- Interface: Forms/Apps Script
-- Pagamentos: Mercado Pago
+Stack Tecnológica:
+
+IA: Google Gemini API.
+
+Orquestração: n8n (Workflows Automatizados).
+
+Banco de Dados: Supabase (PostgreSQL + RLS).
+
+Interface: Google Forms / Apps Script.
+
+Monetização: Mercado Pago API.
